@@ -1,0 +1,23 @@
+.wallet-connected {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--bg-darker);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.account-address {
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .wallet-connected {
+    flex-direction: column;
+    width: 100%;
+  }
+}
